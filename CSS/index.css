@@ -274,9 +274,35 @@ transform: scaleX(1);
     
     }
     
-.text-animation::after{
+.text-animation::before{
 content: "";
 animation: animation1 9s linear 0s infinite;
+}
+
+@keyframes animation6{
+    from{
+        transform:translateY(4px);
+    }
+    to{
+        transform:translateY(19px);
+        opacity: 0;
+    }
+}
+
+.div1{
+width: 30px;
+height: 50px;
+border: 2px solid white;   
+border-radius: 30px; 
+}
+
+.div1 div{
+width: 8px;
+height: 8px;
+margin: 5px auto;
+background-color: white;  
+border-radius: 50%;
+animation: animation6 1.2s linear 0s infinite;
 }
 
 @media all and (max-width:575px){

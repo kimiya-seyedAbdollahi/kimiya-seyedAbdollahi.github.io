@@ -3,7 +3,7 @@ background-repeat: no-repeat;
 background-attachment: fixed ;
 background-position-x: center;
 background-size: cover;
-background-image: url('../Images/1.jpg'); 
+background-image: url('../Images/1.jpg');
 }
 
 .h-custom1{
@@ -607,4 +607,10 @@ transition: all 100ms linear 0s;
 
 .list2 a:hover{
 color: black;    
+}
+
+.circle2{
+width: 60px;    
+height: 60px;  
+margin-left: -10%;  
 }
